@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_dUJsYA5hEfGZVYDwO74nug" label="espresso-framework-talend" language="java" technicalLabel="ESPRESSO_FRAMEWORK_TALEND" author="_dUJsYQ5hEfGZVYDwO74nug" productVersion="Talend Cloud Data Fabric-8.0.1.20260122_0939-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/VladislavSI/espresso-framework-talend&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_dVeiEA5hEfGZVYDwO74nug" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_dUJsYQ5hEfGZVYDwO74nug" login="vladislav_ivanov@beyenfr" firstName="Vladislav" lastName="Ivanov" type="DQ"/>
+</xmi:XMI>
