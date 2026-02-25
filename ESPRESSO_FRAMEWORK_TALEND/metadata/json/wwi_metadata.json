@@ -1,0 +1,359 @@
+{
+  "sources": [
+    {
+      "source_id": "wwi_sql",
+      "source_name": "WideWorldImporters",
+      "source_type": "azure_sql",
+      "connection": {
+        "server": "sql-espresso-poc.database.windows.net",
+        "database": "wwi",
+        "port": 1433
+      },
+      "target": {
+        "database": "WWI_RAW",
+        "schema": "RAW"
+      },
+      "default_settings": {
+        "load_type": "incremental",
+        "incremental_column": "LastEditedWhen",
+        "incremental_column_type": "datetime2",
+        "batch_size": 10000,
+        "enabled": true
+      },
+      "tables": [
+        {
+          "source_schema": "Application",
+          "source_table": "Cities",
+          "target_table": "APPLICATION_CITIES",
+          "primary_key": "CityID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "Countries",
+          "target_table": "APPLICATION_COUNTRIES",
+          "primary_key": "CountryID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "DeliveryMethods",
+          "target_table": "APPLICATION_DELIVERYMETHODS",
+          "primary_key": "DeliveryMethodID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "PaymentMethods",
+          "target_table": "APPLICATION_PAYMENTMETHODS",
+          "primary_key": "PaymentMethodID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "People",
+          "target_table": "APPLICATION_PEOPLE",
+          "primary_key": "PersonID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "StateProvinces",
+          "target_table": "APPLICATION_STATEPROVINCES",
+          "primary_key": "StateProvinceID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "SystemParameters",
+          "target_table": "APPLICATION_SYSTEMPARAMETERS",
+          "primary_key": "SystemParameterID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Application",
+          "source_table": "TransactionTypes",
+          "target_table": "APPLICATION_TRANSACTIONTYPES",
+          "primary_key": "TransactionTypeID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Purchasing",
+          "source_table": "PurchaseOrderLines",
+          "target_table": "PURCHASING_PURCHASEORDERLINES",
+          "primary_key": "PurchaseOrderLineID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Purchasing",
+          "source_table": "PurchaseOrders",
+          "target_table": "PURCHASING_PURCHASEORDERS",
+          "primary_key": "PurchaseOrderID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Purchasing",
+          "source_table": "SupplierCategories",
+          "target_table": "PURCHASING_SUPPLIERCATEGORIES",
+          "primary_key": "SupplierCategoryID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Purchasing",
+          "source_table": "Suppliers",
+          "target_table": "PURCHASING_SUPPLIERS",
+          "primary_key": "SupplierID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Purchasing",
+          "source_table": "SupplierTransactions",
+          "target_table": "PURCHASING_SUPPLIERTRANSACTIONS",
+          "primary_key": "SupplierTransactionID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "BuyingGroups",
+          "target_table": "SALES_BUYINGGROUPS",
+          "primary_key": "BuyingGroupID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "CustomerCategories",
+          "target_table": "SALES_CUSTOMERCATEGORIES",
+          "primary_key": "CustomerCategoryID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "Customers",
+          "target_table": "SALES_CUSTOMERS",
+          "primary_key": "CustomerID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "CustomerTransactions",
+          "target_table": "SALES_CUSTOMERTRANSACTIONS",
+          "primary_key": "CustomerTransactionID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "InvoiceLines",
+          "target_table": "SALES_INVOICELINES",
+          "primary_key": "InvoiceLineID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "Invoices",
+          "target_table": "SALES_INVOICES",
+          "primary_key": "InvoiceID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "OrderLines",
+          "target_table": "SALES_ORDERLINES",
+          "primary_key": "OrderLineID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "Orders",
+          "target_table": "SALES_ORDERS",
+          "primary_key": "OrderID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Sales",
+          "source_table": "SpecialDeals",
+          "target_table": "SALES_SPECIALDEALS",
+          "primary_key": "SpecialDealID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "ColdRoomTemperatures",
+          "target_table": "WAREHOUSE_COLDROOMTEMPERATURES",
+          "primary_key": "ColdRoomTemperatureID",
+          "incremental_column": "RecordedWhen",
+          "enabled": true,
+          "notes": "Uses RecordedWhen instead of LastEditedWhen"
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "Colors",
+          "target_table": "WAREHOUSE_COLORS",
+          "primary_key": "ColorID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "PackageTypes",
+          "target_table": "WAREHOUSE_PACKAGETYPES",
+          "primary_key": "PackageTypeID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "StockGroups",
+          "target_table": "WAREHOUSE_STOCKGROUPS",
+          "primary_key": "StockGroupID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "StockItemHoldings",
+          "target_table": "WAREHOUSE_STOCKITEMHOLDINGS",
+          "primary_key": "StockItemID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "StockItems",
+          "target_table": "WAREHOUSE_STOCKITEMS",
+          "primary_key": "StockItemID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "StockItemStockGroups",
+          "target_table": "WAREHOUSE_STOCKITEMSTOCKGROUPS",
+          "primary_key": "StockItemStockGroupID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "StockItemTransactions",
+          "target_table": "WAREHOUSE_STOCKITEMTRANSACTIONS",
+          "primary_key": "StockItemTransactionID",
+          "incremental_column": "LastEditedWhen",
+          "enabled": true
+        },
+        {
+          "source_schema": "Warehouse",
+          "source_table": "VehicleTemperatures",
+          "target_table": "WAREHOUSE_VEHICLETEMPERATURES",
+          "primary_key": "VehicleTemperatureID",
+          "incremental_column": "RecordedWhen",
+          "enabled": true,
+          "notes": "Uses RecordedWhen instead of LastEditedWhen"
+        }
+      ]
+    },
+    {
+      "source_id": "exchange_rates",
+      "source_name": "ExchangeRate-API",
+      "source_type": "rest_api",
+      "connection": {
+        "base_url": "https://v6.exchangerate-api.com/v6",
+        "auth_type": "api_key",
+        "api_key_param": "9ab371befe2fd786007579e6",
+        "api_key_location": "url_path"
+      },
+      "target": {
+        "database": "WWI_RAW",
+        "schema": "RAW"
+      },
+      "endpoints": [
+        {
+          "endpoint_id": "latest_eur",
+          "endpoint_name": "Latest EUR Exchange Rates",
+          "method": "GET",
+          "url_path": "/latest/EUR",
+          "full_url_template": "https://v6.exchangerate-api.com/v6/9ab371befe2fd786007579e6/latest/EUR",
+          "response_format": "json",
+          "response_root": "conversion_rates",
+          "base_currency": "EUR",
+          "schedule": "daily",
+          "target_table": "EXCHANGE_RATES_EUR_LATEST",
+          "load_type": "full",
+          "enabled": true,
+          "response_mapping": {
+            "base_code": "BASE_CURRENCY",
+            "time_last_update_utc": "RATE_DATE",
+            "conversion_rates": "RATE_VALUE"
+          },
+          "target_columns": [
+            {
+              "name": "RATE_DATE",
+              "type": "TIMESTAMP_NTZ",
+              "source_field": "time_last_update_utc",
+              "description": "Date/time the rate was last updated"
+            },
+            {
+              "name": "BASE_CURRENCY",
+              "type": "VARCHAR(3)",
+              "source_field": "base_code",
+              "description": "Base currency code (EUR)"
+            },
+            {
+              "name": "TARGET_CURRENCY",
+              "type": "VARCHAR(3)",
+              "source_field": "_key",
+              "description": "Target currency code from conversion_rates keys"
+            },
+            {
+              "name": "EXCHANGE_RATE",
+              "type": "NUMBER(18,6)",
+              "source_field": "_value",
+              "description": "Exchange rate value"
+            },
+            {
+              "name": "LOADED_AT",
+              "type": "TIMESTAMP_NTZ",
+              "source_field": "_system",
+              "description": "Timestamp when record was loaded into Snowflake"
+            }
+          ],
+          "sample_response": {
+            "result": "success",
+            "base_code": "EUR",
+            "time_last_update_utc": "Mon, 24 Feb 2025 00:00:00 +0000",
+            "conversion_rates": {
+              "EUR": 1,
+              "USD": 1.0456,
+              "GBP": 0.8312,
+              "BGN": 1.9558,
+              "CHF": 0.9412,
+              "JPY": 157.23
+            }
+          },
+          "notes": "The conversion_rates object contains ~160 currencies as key-value pairs. Each pair needs to be unpivoted into rows (one row per currency) before loading into Snowflake."
+        }
+      ]
+    }
+  ]
+}

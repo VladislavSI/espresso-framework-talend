@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_lsdeYQ2hEfG1TNlbBFVeGg" label="Espresso_Framework" description="" language="java" technicalLabel="ESPRESSO_FRAMEWORK" local="true" author="_ltPhgA2hEfG1TNlbBFVeGg" productVersion="Talend Cloud Data Fabric-8.0.1.20260122_0939-patch" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_luBkoA2hEfG1TNlbBFVeGg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_ltPhgA2hEfG1TNlbBFVeGg" login="vladislav_ivanov@b-eye.com"/>
+</xmi:XMI>
