@@ -1,0 +1,32 @@
+source_id,source_type,source_schema,source_table,target_table,primary_key,incremental_column,load_type,enabled,api_url_template,base_currency,notes
+wwi_sql,azure_sql,Application,Cities,APPLICATION_CITIES,CityID,ValidFrom,incremental,FALSE,,,Application cities
+wwi_sql,azure_sql,Application,Countries,APPLICATION_COUNTRIES,CountryID,ValidFrom,incremental,FALSE,,,Application countries
+wwi_sql,azure_sql,Application,DeliveryMethods,APPLICATION_DELIVERYMETHODS,DeliveryMethodID,ValidFrom,incremental,FALSE,,,Delivery methods
+wwi_sql,azure_sql,Application,PaymentMethods,APPLICATION_PAYMENTMETHODS,PaymentMethodID,ValidFrom,incremental,FALSE,,,Payment methods
+wwi_sql,azure_sql,Application,People,APPLICATION_PEOPLE,PersonID,ValidFrom,incremental,FALSE,,,People
+wwi_sql,azure_sql,Application,StateProvinces,APPLICATION_STATEPROVINCES,StateProvinceID,ValidFrom,incremental,FALSE,,,State provinces
+wwi_sql,azure_sql,Application,SystemParameters,APPLICATION_SYSTEMPARAMETERS,SystemParameterID,LastEditedWhen,incremental,FALSE,,,System parameters
+wwi_sql,azure_sql,Application,TransactionTypes,APPLICATION_TRANSACTIONTYPES,TransactionTypeID,ValidFrom,incremental,FALSE,,,Transaction types
+wwi_sql,azure_sql,Purchasing,PurchaseOrderLines,PURCHASING_PURCHASEORDERLINES,PurchaseOrderLineID,LastEditedWhen,incremental,FALSE,,,Purchase order lines
+wwi_sql,azure_sql,Purchasing,PurchaseOrders,PURCHASING_PURCHASEORDERS,PurchaseOrderID,LastEditedWhen,incremental,FALSE,,,Purchase orders
+wwi_sql,azure_sql,Purchasing,SupplierCategories,PURCHASING_SUPPLIERCATEGORIES,SupplierCategoryID,ValidFrom,incremental,FALSE,,,Supplier categories
+wwi_sql,azure_sql,Purchasing,Suppliers,PURCHASING_SUPPLIERS,SupplierID,ValidFrom,incremental,FALSE,,,Suppliers
+wwi_sql,azure_sql,Purchasing,SupplierTransactions,PURCHASING_SUPPLIERTRANSACTIONS,SupplierTransactionID,LastEditedWhen,incremental,FALSE,,,Supplier transactions
+wwi_sql,azure_sql,Sales,BuyingGroups,SALES_BUYINGGROUPS,BuyingGroupID,ValidFrom,incremental,TRUE,,,Buying groups
+wwi_sql,azure_sql,Sales,CustomerCategories,SALES_CUSTOMERCATEGORIES,CustomerCategoryID,ValidFrom,incremental,TRUE,,,Customer categories
+wwi_sql,azure_sql,Sales,Customers,SALES_CUSTOMERS,CustomerID,ValidFrom,incremental,TRUE,,,Customers
+wwi_sql,azure_sql,Sales,CustomerTransactions,SALES_CUSTOMERTRANSACTIONS,CustomerTransactionID,LastEditedWhen,incremental,TRUE,,,Customer transactions
+wwi_sql,azure_sql,Sales,InvoiceLines,SALES_INVOICELINES,InvoiceLineID,LastEditedWhen,incremental,TRUE,,,Invoice lines
+wwi_sql,azure_sql,Sales,Invoices,SALES_INVOICES,InvoiceID,LastEditedWhen,incremental,TRUE,,,Invoices
+wwi_sql,azure_sql,Sales,OrderLines,SALES_ORDERLINES,OrderLineID,LastEditedWhen,incremental,TRUE,,,Order lines
+wwi_sql,azure_sql,Sales,Orders,SALES_ORDERS,OrderID,LastEditedWhen,incremental,TRUE,,,Orders
+wwi_sql,azure_sql,Sales,SpecialDeals,SALES_SPECIALDEALS,SpecialDealID,LastEditedWhen,incremental,TRUE,,,Special deals
+wwi_sql,azure_sql,Warehouse,ColdRoomTemperatures,WAREHOUSE_COLDROOMTEMPERATURES,ColdRoomTemperatureID,RecordedWhen,incremental,FALSE,,,Cold room temperatures
+wwi_sql,azure_sql,Warehouse,Colors,WAREHOUSE_COLORS,ColorID,ValidFrom,incremental,FALSE,,,Colors
+wwi_sql,azure_sql,Warehouse,PackageTypes,WAREHOUSE_PACKAGETYPES,PackageTypeID,ValidFrom,incremental,FALSE,,,Package types
+wwi_sql,azure_sql,Warehouse,StockGroups,WAREHOUSE_STOCKGROUPS,StockGroupID,ValidFrom,incremental,FALSE,,,Stock groups
+wwi_sql,azure_sql,Warehouse,StockItemHoldings,WAREHOUSE_STOCKITEMHOLDINGS,StockItemID,LastEditedWhen,incremental,FALSE,,,Stock item holdings
+wwi_sql,azure_sql,Warehouse,StockItems,WAREHOUSE_STOCKITEMS,StockItemID,ValidFrom,incremental,FALSE,,,Stock items
+wwi_sql,azure_sql,Warehouse,StockItemStockGroups,WAREHOUSE_STOCKITEMSTOCKGROUPS,StockItemStockGroupID,LastEditedWhen,incremental,FALSE,,,Stock item stock groups
+wwi_sql,azure_sql,Warehouse,StockItemTransactions,WAREHOUSE_STOCKITEMTRANSACTIONS,StockItemTransactionID,LastEditedWhen,incremental,FALSE,,,Stock item transactions
+wwi_sql,azure_sql,Warehouse,VehicleTemperatures,WAREHOUSE_VEHICLETEMPERATURES,VehicleTemperatureID,RecordedWhen,incremental,FALSE,,,Vehicle temperatures
