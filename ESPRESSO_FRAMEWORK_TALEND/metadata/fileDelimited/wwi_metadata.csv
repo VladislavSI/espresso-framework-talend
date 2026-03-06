@@ -30,3 +30,4 @@ wwi_sql,azure_sql,Warehouse,StockItems,WAREHOUSE_STOCKITEMS,StockItemID,ValidFro
 wwi_sql,azure_sql,Warehouse,StockItemStockGroups,WAREHOUSE_STOCKITEMSTOCKGROUPS,StockItemStockGroupID,LastEditedWhen,incremental,FALSE,,,Stock item stock groups
 wwi_sql,azure_sql,Warehouse,StockItemTransactions,WAREHOUSE_STOCKITEMTRANSACTIONS,StockItemTransactionID,LastEditedWhen,incremental,FALSE,,,Stock item transactions
 wwi_sql,azure_sql,Warehouse,VehicleTemperatures,WAREHOUSE_VEHICLETEMPERATURES,VehicleTemperatureID,RecordedWhen,incremental,FALSE,,,Vehicle temperatures
+fx_api,API,,,,,,,TRUE,,,
