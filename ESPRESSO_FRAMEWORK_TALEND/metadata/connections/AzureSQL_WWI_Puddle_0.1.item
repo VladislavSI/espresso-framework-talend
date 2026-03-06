@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_mxr6QBL1EfGJjKmrHOjdAQ" name="AzureSQL_WWI_Puddle" id="_It26QBL1EfGJjKmrHOjdAQ" label="AzureSQL_WWI_Puddle" dataPackage="_m5tN0BL1EfGJjKmrHOjdAQ" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://sql-espresso-poc.database.windows.net:1433;DatabaseName=wwi_puddle;encrypt=true;trustServerCertificate=true;" dbVersionString="MSSQL_PROP" Port="1433" Username="sqladmin" Password="enc:system.encryption.key.v1:4Iy2GtxMa9Quubupb3qxILRs40M1sAV5Ub3KjjDAAv77s0QTNC44jL6nL+BL4+W2" ServerName="sql-espresso-poc.database.windows.net" DatasourceName="" FileFieldName="" SID="wwi_puddle" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="encrypt=true;trustServerCertificate=true;" StandardSQL="true" SQLMode="false" UiSchema="RAW" supportNLS="false">
+    <taggedValue xmi:id="_mxtIYBL1EfGJjKmrHOjdAQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_myH_IBL1EfGJjKmrHOjdAQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_myQiABL1EfGJjKmrHOjdAQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_myQiARL1EfGJjKmrHOjdAQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_myQiAhL1EfGJjKmrHOjdAQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_myQiAxL1EfGJjKmrHOjdAQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_myQiBBL1EfGJjKmrHOjdAQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_myQiBRL1EfGJjKmrHOjdAQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_m1QysBL1EfGJjKmrHOjdAQ" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_m1QysRL1EfGJjKmrHOjdAQ" tag="DB ProductVersion" value="12.00.1017"/>
+    <taggedValue xmi:id="_m1QyshL1EfGJjKmrHOjdAQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_mxtIYRL1EfGJjKmrHOjdAQ" key="CONN_PARA_KEY_USERNAME" value="sqladmin"/>
+    <parameters xmi:id="_v3HacBMFEfGabMwrLvooxA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_m5tN0BL1EfGJjKmrHOjdAQ" name="wwi_puddle" dataManager="_mxr6QBL1EfGJjKmrHOjdAQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_m5tN0RL1EfGJjKmrHOjdAQ" name="RAW"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_YPEF4BCmEfGor_K0D95z-Q" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_SKDkkBCoEfGor_K0D95z-Q" comment="" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDkkRCoEfGor_K0D95z-Q" comment="" name="source_host" prompt="source_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDkkhCoEfGor_K0D95z-Q" comment="" name="source_db" prompt="source_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDkkxCoEfGor_K0D95z-Q" comment="" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;1433&quot;"/>
+  <contextParameter xmi:id="_SKDklBCoEfGor_K0D95z-Q" comment="" name="source_base_url" prompt="source_base_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDklRCoEfGor_K0D95z-Q" comment="" name="source_token_endpoint" prompt="source_token_endpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDklhCoEfGor_K0D95z-Q" comment="" name="mssql_host" prompt="mssql_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sql-espresso-poc.database.windows.net"/>
+  <contextParameter xmi:id="_SKDklxCoEfGor_K0D95z-Q" comment="" name="mssql_port" prompt="mssql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_SKDkmBCoEfGor_K0D95z-Q" comment="" name="mssql_database" prompt="mssql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="wwi"/>
+  <contextParameter xmi:id="_SKDkmRCoEfGor_K0D95z-Q" comment="" name="mssql_schema" prompt="mssql_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_SKDkmhCoEfGor_K0D95z-Q" comment="" name="mssql_username" prompt="mssql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sqladmin&#x9;"/>
+  <contextParameter xmi:id="_SKDkmxCoEfGor_K0D95z-Q" comment="" name="mssql_password" prompt="mssql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="9VWhOuVRkl5C34n4AFRg"/>
+  <contextParameter xmi:id="_SKDknBCoEfGor_K0D95z-Q" comment="" name="process_name" prompt="process_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDknRCoEfGor_K0D95z-Q" comment="" name="activity_type" prompt="activity_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDknhCoEfGor_K0D95z-Q" comment="" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Sales"/>
+  <contextParameter xmi:id="_SKDknxCoEfGor_K0D95z-Q" comment="" name="source_table" prompt="source_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Orders"/>
+  <contextParameter xmi:id="_SKDkoBCoEfGor_K0D95z-Q" comment="" name="target_table" prompt="target_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SALES_ORDERS"/>
+  <contextParameter xmi:id="_SKDkoRCoEfGor_K0D95z-Q" comment="" name="target_file_path" prompt="target_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDkohCoEfGor_K0D95z-Q" comment="" name="full_load_flag" prompt="full_load_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_SKDkoxCoEfGor_K0D95z-Q" comment="" name="run_flag" prompt="run_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+  <contextParameter xmi:id="_GFWhoBIeEfGkJ6EAAnmPMg" comment="" name="metadata_file_path" prompt="metadata_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Program Files (x86)\Talend-Studio\studio\workspace\ESPRESSO_FRAMEWORK\ESPRESSO_FRAMEWORK_TALEND\metadata\fileDelimited\wwi_metadata.csv"/>
+  <contextParameter xmi:id="_GFWhoRIeEfGkJ6EAAnmPMg" comment="" name="git_repo_path" prompt="git_repo_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Program Files (x86)\Talend-Studio\studio\workspace\ESPRESSO_FRAMEWORK\ESPRESSO_FRAMEWORK_TALEND"/>
+  <contextParameter xmi:id="_qblR0BI0EfG5eP7PFtxKCQ" comment="" name="primary_key" prompt="primary_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OrderID"/>
+  <contextParameter xmi:id="_qblR0RI0EfG5eP7PFtxKCQ" comment="" name="incremental_column" prompt="incremental_column?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="LastEditedWhen"/>
+  <contextParameter xmi:id="_qblR0hI0EfG5eP7PFtxKCQ" comment="" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="incremental"/>
+  <contextParameter xmi:id="_qblR0xI0EfG5eP7PFtxKCQ" comment="" name="batch_size" prompt="batch_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10000"/>
+  <contextParameter xmi:id="_qblR1BI0EfG5eP7PFtxKCQ" comment="" name="target_database" prompt="target_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="WWI_RAW"/>
+  <contextParameter xmi:id="_qblR1RI0EfG5eP7PFtxKCQ" comment="" name="target_schema" prompt="target_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RAW"/>
+</talendfile:ContextType>

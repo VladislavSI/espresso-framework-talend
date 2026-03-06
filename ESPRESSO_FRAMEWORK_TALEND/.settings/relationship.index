@@ -1,1 +1,42 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_TtfpQA5jEfGZVYDwO74nug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_amq9AA5iEfGZVYDwO74nug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "ESPRESSO_FRAMEWORK_TALEND:_TtfpQA5jEfGZVYDwO74nug",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ESPRESSO_FRAMEWORK_TALEND:_z3pR0BMfEfG5A9L-eXXyzQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_z3pR0BMfEfG5A9L-eXXyzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+} ]
