@@ -144,7 +144,7 @@
     <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
     <elementParameter field="CHECK" name="FORCE_HTTP_VERSION_TO_1_1" value="false"/>
     <elementParameter field="TABLE" name="HEADERS">
-      <elementValue elementRef="NAME" value="Accept" id="0"/>
+      <elementValue elementRef="NAME" value="&quot;Accept&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="&quot;application/json&quot;" id="1"/>
     </elementParameter>
     <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
